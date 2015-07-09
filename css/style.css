@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700,300);
 .line {outline: 1px solid red;}
 .inline {display: inline;}
 .inline-block, .inline-block li {display: inline-block;}
@@ -8,16 +8,24 @@
 
 body {
 	padding-top: 75px;
-	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-family: 'Titillium Web', 'Helvetica', sans-serif;
 	color: #323232;
+	font-weight: 300;
+	font-size: 1.5em;
 }
 
 h1 {
+	font-weight: 700;
 	font-size: 2.25em;
 }
 
 h4 {
+	font-weight: 700;
 	font-size: 1.75em;
+}
+
+a {
+	font-weight: 400;
 }
 
 .fore-primary-lite {

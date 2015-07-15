@@ -1,22 +1,24 @@
-.search-wrap {
-
-}
 
 .search-profile {
-	background-color: #FFF;
-	padding: 15px;
 	margin-bottom: 20px;
+	padding: 0;
 }
+	@media (min-width: 768px) {
+		.search-profile {
+			border-color: blue;
+			padding: 15px;
+		}
+	}
+
+.search-profile > div {
+	padding: 15px 0;
+	background-color: #FFF;
+}
+
 .profile-image {
 	border-radius: 50%;
 	max-width: 100px;
 }
-
-
-.info-profile {
-
-}
-
 
 .tag {
 	background-color: #DFDFDF;

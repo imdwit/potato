@@ -1,0 +1,32 @@
+.search-wrap {
+
+}
+
+.search-profile {
+	border: 1px solid #DFDFDF;
+	background-color: #FFF;
+	padding: 20px 25px;
+	margin-bottom: 20px;
+}
+.profile-image {
+	border-radius: 50%;
+	max-width: 100px;
+}
+
+
+.info-profile {
+
+}
+
+
+.tag {
+	background-color: #DFDFDF;
+	padding: 2px 4px;
+}
+
+
+.ratings {
+	margin: 0;
+	padding: 0;
+	color: #D0021B;
+}

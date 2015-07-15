@@ -1,33 +1,45 @@
-
 .search-profile {
 	margin-bottom: 20px;
 	padding: 0;
 }
-	@media (min-width: 768px) {
-		.search-profile {
-			border-color: blue;
-			padding: 15px;
-		}
-	}
-
 .search-profile > div {
 	padding: 15px 0;
 	background-color: #FFF;
 }
-
+@media (min-width: 769px) {
+	.search-profile {
+		padding: 15px;
+	}
+	.search-profile > div {
+		padding: 15px 25px;
+	}
+}
+.portfolio-wrap {
+	margin-top: 5px;
+}
+@media (min-width: 769px) {
+	.portfolio-wrap {
+		margin-top: 0;
+	}
+}
 .profile-image {
 	border-radius: 50%;
 	max-width: 100px;
 }
-
 .tag {
 	background-color: #DFDFDF;
 	padding: 2px 4px;
 }
-
-
 .ratings {
 	margin: 0;
 	padding: 0;
 	color: #D0021B;
+}
+
+
+.search-filter {
+	background-color: white;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }

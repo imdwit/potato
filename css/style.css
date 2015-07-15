@@ -65,7 +65,7 @@ a {
 }
 
 .btn-brand {
-	outline: 1px solid #EEE;
+	border: 1px solid #EEE;
 	background-color: #FFF;
 	color: #000;
 	border-radius: 0;

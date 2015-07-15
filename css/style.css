@@ -75,6 +75,9 @@ a {
 		background-color: #D0021B;
 		color: #FFF;
 	}
+	.btn-brand:active {
+		background-color: #A90014;
+	}
 
 
 .pad {

@@ -59,6 +59,23 @@ a {
 	margin: 10px;
 }
 
+.lead {
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.btn-brand {
+	outline: 1px solid #EEE;
+	background-color: #FFF;
+	color: #000;
+	border-radius: 0;
+	transition: all .33s;
+}
+	.btn-brand:hover {
+		background-color: #D0021B;
+		color: #FFF;
+	}
+
 
 .pad {
 	padding: 20% 0 20% 0;
@@ -123,4 +140,10 @@ a {
 #footer {
 	padding-top: 5%;
 	padding-bottom: 5%;
+}
+
+
+
+#view {
+	padding-top: 100px;
 }

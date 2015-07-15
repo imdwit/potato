@@ -1,5 +1,5 @@
 .search-profile {
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 	padding: 0;
 }
 .search-profile > div {
@@ -42,4 +42,12 @@
 	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.info-wrap {
+	padding: 0;
+}
+
+.info-wrap div{
+	padding: 8px 0;
 }

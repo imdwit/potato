@@ -29,6 +29,10 @@ a {
 	font-weight: 300;
 }
 
+input, a {
+ border-radius: 0 !important;
+}
+
 .fore-primary-lite {
 	background-color: #D0021B;
 }
@@ -136,6 +140,8 @@ a {
 		background-image: url('');
 	}
 }
+
+
 
 
 

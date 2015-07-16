@@ -1,4 +1,5 @@
 .search-profile {
+	transition: all .5s;
 	margin-bottom: 5px;
 	padding: 0;
 }
@@ -26,6 +27,28 @@
 	border-radius: 50%;
 	max-width: 100px;
 }
+
+.portfolio {
+	transition: all .5s;
+	max-height: 0;
+	margin-top: -1px;
+	overflow: hidden;
+	opacity: 0;
+}
+
+.portfolio.show {
+	opacity: 1;
+	max-height: 500px;
+	overflow-y: scroll;
+}
+.portfolio > div {
+	margin-bottom: 4px;
+}
+
+.portfolio img {
+	margin: 0 auto;
+}
+
 .tag {
 	background-color: #DFDFDF;
 	padding: 2px 4px;

@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300);
+
 .line {outline: 1px solid red;}
 .inline {display: inline;}
 .inline-block, .inline-block li {display: inline-block;}
@@ -9,7 +9,6 @@
 
 body {
 	padding-top: 75px;
-	font-family: 'Titillium Web', 'Helvetica', sans-serif;
 	color: #323232;
 	font-weight: 300;
 	font-size: 1.5em;
@@ -29,7 +28,7 @@ a {
 	font-weight: 300;
 }
 
-input, a {
+textarea, input, a {
  border-radius: 0 !important;
 }
 

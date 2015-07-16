@@ -77,8 +77,8 @@
 								<span class="tag">Blowout</span>
 								<span class="tag">Blowout</span>
 							</div>
-							<div class="col-md-3 col-xs-12 portfolio-wrap">
-								<a href="#" class="btn btn-brand">Portfolio <i class="fa fa-chevron-down"></i></a>
+							<div class="col-md-3 col-xs-12 portfolio-wrap toggle-portfolio">
+								<a href="#" class="btn btn-brand ">Portfolio <i class="fa fa-chevron-down"></i></a>
 							</div>
 						</div>
 						<div class="col-xs-12 portfolio">
@@ -172,8 +172,88 @@
 					</div>
 				</div>
 			</div>
-
+			<div class="search-profile col-md-6 ">
+				<div class="">
+					<div class="row">
+						<div class="col-md-3 " >
+							<img class="profile-image center-block" src="http://placehold.it/150x150">
+						</div>
+						<div class="info-profile col-md-6 text-center">
+							<p class="lead">Dwight Doane</p>
+							<p class="">Professional barber</p>
+						</div>
+						<div class="col-md-3 text-center">
+							<a href="#" class="btn btn-brand">Book <span>$33.00</span></a>
+						</div>
+						<div class="col-xs-12 text-center info-wrap" >
+							<div class=" col-md-3 col-xs-12">
+								<ul class=" ratings inline-block ">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star-o"></i></li>
+								</ul>
+							</div>
+							<div class="col-md-6 col-xs-12">
+								<span class="tag">Blowout</span>
+								<span class="tag">Blowout</span>
+								<span class="tag">Blowout</span>
+								<span class="tag">Blowout</span>
+							</div>
+							<div class="col-md-3 col-xs-12 portfolio-wrap">
+								<a href="#" class="btn btn-brand">Portfolio <i class="fa fa-chevron-down"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="search-profile col-md-6 ">
+				<div class="">
+					<div class="row">
+						<div class="col-md-3 " >
+							<img class="profile-image center-block" src="http://placehold.it/150x150">
+						</div>
+						<div class="info-profile col-md-6 text-center">
+							<p class="lead">Dwight Doane</p>
+							<p class="">Professional barber</p>
+						</div>
+						<div class="col-md-3 text-center">
+							<a href="#" class="btn btn-brand">Book <span>$33.00</span></a>
+						</div>
+						<div class="col-xs-12 text-center info-wrap" >
+							<div class=" col-md-3 col-xs-12">
+								<ul class=" ratings inline-block ">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star-o"></i></li>
+								</ul>
+							</div>
+							<div class="col-md-6 col-xs-12">
+								<span class="tag">Blowout</span>
+								<span class="tag">Blowout</span>
+								<span class="tag">Blowout</span>
+								<span class="tag">Blowout</span>
+							</div>
+							<div class="col-md-3 col-xs-12 portfolio-wrap">
+								<a href="#" class="btn btn-brand">Portfolio <i class="fa fa-chevron-down"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+
+		<script>
+			var toggles = document.querySelector('.toggle-portfolio');
+			toggles.addEventListener('click', function(e) {
+				e.preventDefault();
+ 				this.parentNode.nextElementSibling.classList.toggle('show')
+			});
+		</script>
+
 </body>
 
 </html>

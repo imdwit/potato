@@ -1,0 +1,16 @@
+#overlay {
+	padding-bottom: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #FFF;
+	height: 100%;
+	z-index: 2000;
+	overflow-y: auto;
+	transition: all .3s;
+}
+
+
+#modal {
+}

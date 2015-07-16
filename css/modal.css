@@ -1,7 +1,7 @@
 #overlay {
 	padding-bottom: 50px;
 	position: fixed;
-	top: 0;
+	top: 100%;
 	left: 0;
 	right: 0;
 	background-color: #FFF;
@@ -11,6 +11,14 @@
 	transition: all .3s;
 }
 
+#overlay.show {
+	top: 0;
+}
 
-#modal {
+#modal form {
+	display: none;
+}
+
+.active-form {
+	display: block !important;
 }

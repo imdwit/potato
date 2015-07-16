@@ -19,7 +19,7 @@
 			<p class="brand inline-block pull-left"><a href="#top">Gents</a></p>
 			<ul class="nav-links pull-right inline-block ">
 				<li><a href="#search">Search</a></li>
-				<li><a href="#contact">Log In</a></li>
+				<li><a href="#" class="toggle-modal">Log In</a></li>
 			</ul>
 		</div>
 	</div>
@@ -100,12 +100,12 @@
 
 	<div id="overlay" class="container-fluid">
 		<div class="col-xs-offset-10 col-xs-2 text-center">
-			<div class="form-group">
-				<p><i class="fa fa-close"></i></p>
+			<div class="form-group toggle">
+				<p class=""><a href="#" class="toggle-modal btn btn-brand"><i class="fa fa-close"></i></a></p>
 			</div>
 		</div>
-		<div id="modal" class="col-md-offset-4 col-md-4 col-xs-12">
-			<form id="login-form" class="">
+		<div id="modal" class="col-sm-offset-2 col-sm-8 col-md-offset-4 col-md-4 col-xs-12">
+			<form id="login-form" class="active-form">
 				<p class="text-center lead">Log In</p>
 				<div class="form-group">
 					<label>Email</label>
@@ -118,14 +118,14 @@
 				</div>
 				<div class="form-group">
 					<a class="btn btn-brand">Submit</a>
-					<a class="pull-right">Sign up</a>
+					<a href="#"class="pull-right toggle-form">Sign up</a>
 				</div>
 				<div class="form-group">
 					<a class="btn btn-block btn-default">Facebook Login</a>
 				</div>
 			</form>
 
-			<form id="signup-form" class="hidden">
+			<form id="signup-form" class="">
 				<div class="form-group text-center" >
 					<p class="lead">
 						Are you a Client or Barber?
@@ -133,6 +133,7 @@
 					<label>Client
 					<input type="radio" name="accttype">
 					</label>
+					<span>&nbsp;</span>
 					<label>Barber
 					<input type="radio" name="accttype">
 					</label>
@@ -163,7 +164,7 @@
 				</div>
 				<div class="form-group">
 					<a class="btn btn-brand">Submit</a>
-					<a class="pull-right">Login</a>
+					<a href="#" class="pull-right toggle-form">Login</a>
 				</div>
 				<div class="form-group">
 					<a class="btn btn-block btn-default">Facebook Login</a>
@@ -171,6 +172,33 @@
 			</form>
 		</div>
 	</div>
+
+
+	<script>
+		var overlay = document.getElementById('overlay')
+		var modalToggle = document.getElementsByClassName('toggle-modal');
+		var forms = overlay.getElementsByTagName('form');
+		var formToggle = overlay.getElementsByClassName('toggle-form');
+
+		Array.prototype.forEach.call(formToggle, function(el) {
+			el.addEventListener('click', function(e) {
+				e.preventDefault();
+				Array.prototype.forEach.call(forms, function(form) {
+					form.classList.toggle('active-form');
+				})
+
+			})
+		})
+
+		Array.prototype.forEach.call(modalToggle, function(el) {
+			el.addEventListener('click', function(e){
+				e.preventDefault();
+				overlay.classList.toggle('show');
+			}, false);
+		});
+
+
+	</script>
 
 </body>
 

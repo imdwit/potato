@@ -37,7 +37,9 @@
 					<input class="form-control" type="number" id="zip" placeholder="Zip Code">
 				</div>
 				<div class=" form-group">
-					<input class="form-control" type="number" id="miles" placeholder="Miles">
+
+					<input class="form-" type="range" value="10" min="1" max="25" step="1" id="miles" placeholder="Miles">
+					<p  class="text-center" style="margin: 0; padding: 0;"><span id="miles-val">10</span> Miles</p>
 				</div>
 				<div class=" form-group">
 					<a href="search.html" class="btn btn-brand">Find Your Barber</a>
@@ -252,6 +254,12 @@
 				e.preventDefault();
  				this.parentNode.nextElementSibling.classList.toggle('show')
 			});
+
+			var miles = document.getElementById('miles');
+			var milesOutput = document.getElementById('miles-val');
+			miles.addEventListener('change', function() {
+				milesOutput.innerText = this.value;
+			})
 		</script>
 
 </body>

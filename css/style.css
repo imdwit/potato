@@ -39,6 +39,11 @@ textarea, input, a {
 	background-color: #A90014;
 }
 
+.back-primary-brand {
+	background-color: #E74C3C;
+	color: #FFF;
+}
+
 .back-primary-lite {
 	background-color: #DFDFDF;
 }
@@ -48,7 +53,7 @@ textarea, input, a {
 }
 
 .text-primary-dark, .link-primary-dark a {
-	color: #81000F;
+	color: #E74C3C;
 }
 .text-primary-darker, .link-primary-darker{
 	color: #323232;
@@ -75,7 +80,7 @@ textarea, input, a {
 	transition: all .33s;
 }
 	.btn-brand:hover {
-		background-color: #D0021B;
+		background-color: #E74C3C;
 		color: #FFF;
 	}
 	.btn-brand:active {
@@ -118,7 +123,7 @@ textarea, input, a {
 
 .nav a:hover {
 	text-decoration: none;
-	border-bottom: 1px solid #323232;
+	border-bottom: 1px solid #A90014;
 	margin-bottom: -1px;
 }
 
@@ -135,8 +140,8 @@ textarea, input, a {
 
 @media screen and (max-width:768px) {
 	#search {
-		background-color: #A90014;
 		background-image: url('');
+		background-color: #ABABAB;
 	}
 }
 

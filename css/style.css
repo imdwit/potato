@@ -92,6 +92,12 @@ textarea, input, a {
 	padding: 20% 0 20% 0;
 }
 
+.ratings {
+	margin: 0;
+	padding: 0;
+	color: #D0021B;
+}
+
 
 /********* NAV */
 .nav {

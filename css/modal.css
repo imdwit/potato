@@ -4,15 +4,25 @@
 	top: 100%;
 	left: 0;
 	right: 0;
-	background-color: #FFF;
+	background-color: rgba(0,0,0,.5);
 	height: 100%;
 	z-index: 2000;
 	overflow-y: auto;
 	transition: all .3s;
 }
 
+@media screen and (max-width:768px) {
+	#overlay {
+		background-color: #FFF;
+	}
+}
+
 #overlay.show {
 	top: 0;
+}
+
+#modal {
+	background-color: #FFF;
 }
 
 #modal form {

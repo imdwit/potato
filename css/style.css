@@ -1,147 +1,10 @@
-
-.line {outline: 1px solid red;}
-.inline {display: inline;}
-.inline-block, .inline-block li {display: inline-block;}
-.text-center {text-align: center;}
-.text-right {text-align: right;}
-.text-left {text-align: left;}
-.text-uppercase{text-transform: uppercase};
-
-body {
-	padding-top: 75px;
-	color: #323232;
-	font-weight: 300;
-	font-size: 1.5em;
-}
-
-h1 {
-	font-weight: 400;
-	font-size: 2.25em;
-}
-
-h4 {
-	font-weight: 400;
-	font-size: 1.75em;
-}
-
-ul{list-style: none;}
-
-
-
-textarea, input, a {
- border-radius: 0 !important;
-}
-
-.fore-primary-lite {
-	background-color: #D0021B;
-}
-.fore-primary-dark {
-	background-color: #A90014;
-}
-
-.back-primary-brand {
-	background-color: #E74C3C;
-	color: #FFF;
-}
-
-.back-primary-lite {
-	background-color: #DFDFDF;
-}
-
-.back-primary-dark {
-	background-color: #ABABAB;
-}
-
-.text-primary-dark, .link-primary-dark a {
-	color: #E74C3C;
-}
-.text-primary-darker, .link-primary-darker a{
-	color: #323232;
-}
-.text-pimary-lite, .link-primary-lite a{
-	color: #FFF;
-}
-
-.brand {
-	font-size: 1.2em;
-	margin: 10px;
-}
-
-.lead {
-	font-size: 1.2em;
-	font-weight: 400;
-}
-
-.btn-brand {
-	border: 1px solid #EEE;
-	background-color: #E74C3C;
-	color: #FFF;
-	border-radius: 0;
-	transition: all .33s;
-}
-	.btn-brand:hover {
-		color: #FFF;
-		background-color: #A90014;
-	}
-	.btn-brand:active {
-		opacity: 0.85;
-	}
-.callout {
-	font-size: 16px;
-	padding: 20px 25px;
-}
-
-.pad {
-	padding: 10% 0 10% 0;
-}
-
-.pad.x2 {
-	padding: 20% 0 20% 0;
-}
-
-.ratings {
-	margin: 0;
-	padding: 0;
-	color: #D0021B;
-}
-
-
-/********* NAV */
-.nav {
-	position: fixed;
-	top: 0;
-	padding: 0;
-	z-index: 1111;
-	left: 0;
-	right: 0;
-	box-shadow: 0px 2px 4px #999;
-}
-
-.nav .wrap {
-	max-width: 800px;
-	margin: 0 auto;
-}
-
-.nav-links {
-	padding: 0;
-	margin: 0;
-	position: relative;
-	top: 14px;
-}
-
-.nav a {
-	padding: 8px 12px;
-	display: block;
-}
-
-.nav a:hover {
-	text-decoration: none;
-	border-bottom: 1px solid #DFDFDF;
-	margin-bottom: -1px;
-}
-
-/* END NAV***********/
-
+@import url('bootstrap.min.css');
+@import url('base.css');
+@import url('nav.css');
+@import url('modal.css');
+@import url('dash.css');
+@import url('search.css');
+@import url('profile.css');
 
 #search {
 	background: url('../img/barber.png') no-repeat center center fixed;
@@ -166,17 +29,10 @@ textarea, input, a {
 	}
 }
 
-
-
-
-
-
 #footer {
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
-
-
 
 #view {
 	padding-top: 61px;

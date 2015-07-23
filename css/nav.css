@@ -1,0 +1,32 @@
+.nav {
+	position: fixed;
+	top: 0;
+	padding: 0;
+	z-index: 1111;
+	left: 0;
+	right: 0;
+	box-shadow: 0px 2px 4px #999;
+}
+
+.nav .wrap {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.nav-links {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 14px;
+}
+
+.nav a {
+	padding: 8px 12px;
+	display: block;
+}
+
+.nav a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #DFDFDF;
+	margin-bottom: -1px;
+}

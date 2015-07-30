@@ -1,0 +1,77 @@
+.clndr {
+  display: block;
+  margin: 0 auto;
+  padding: 5%;
+  max-width: 100%; }
+  .clndr .clndr-controls {
+    border-bottom: 1px solid #ccc;
+    position: relative; }
+    .clndr .clndr-controls .month {
+      padding: 12px 0;
+      text-align: center; }
+    .clndr .clndr-controls .clndr-previous-button, .clndr .clndr-controls .clndr-next-button {
+      cursor: pointer;
+      top: 0px;
+      left: 0px;
+      padding: 12px;
+      position: absolute; }
+    .clndr .clndr-controls .clndr-next-button {
+      left: auto;
+      right: 0px; }
+  .clndr .clndr-grid .days-of-the-week {
+    width: 100%; }
+    .clndr .clndr-grid .days-of-the-week .header-day {
+      display: inline-block;
+      width: 14.28571%;
+      padding: 12px 0;
+      text-align: center; }
+  .clndr .days .day, .clndr .days .empty {
+    display: inline-block;
+    width: 14.28571%;
+    padding: 12px 0;
+    position: relative;
+    text-align: center; }
+
+      .clndr .days .day.select, .clndr .days .empty.select {
+      background-color: #D0021B ;
+      color: #FFF; }
+    .clndr .days .day .event-indicator, .clndr .days .empty .event-indicator {
+      background-color: #3BB7E8 ;
+      border-radius: 100%;
+      color: #fff;
+      cursor: pointer;
+      font-size: 9px;
+      height: 15px;
+      line-height: 16px;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      width: 15px; }
+    .clndr .days .day.adjacent-month, .clndr .days .empty.adjacent-month {
+      opacity: 0.3; }
+
+  .inactive, .clndr .days .day.adjacent-month.inactive, .clndr .days .empty.adjacent-month.inactive, .day.adjacent-month.inactive {
+    background-color: #a8a8a8;
+    opacity: 1;
+  }
+
+  .clndr .days .day.today, .clndr .days .empty.today,  .clndr .days .day.adjacent-month.inactive.today {
+      background-color: #ccc; }
+
+     .exclude, .exclude.select {
+       background-color: #000 !important;
+			 cursor: not-allowed !important;
+       color: #aaa !important;
+     }
+
+
+     .clndr .days .past {
+       cursor: not-allowed;
+       opacity: .15 ;
+     }
+
+
+#dashclndr .days, #dashclndr .days .past {
+  cursor: initial;
+  opacity: 1;
+}
